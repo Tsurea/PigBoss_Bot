@@ -56,7 +56,7 @@ async def hello(ctx):
             print(res)
             idea.close()
     
-    ctx.send(res)        
+    await ctx.send(res)        
 
 @bot.command()
 async def cat(ctx):
@@ -69,5 +69,5 @@ async def cat(ctx):
                 js = await r.json()
                 await ctx.send(js['file'])
 
-
-bot.run(token)
+if "__main__" == __name__:
+    bot.run(token)
