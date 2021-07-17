@@ -5,7 +5,7 @@ from pokemon import Pokemon
 from discord.ext import commands
 import discord
 
-token = "ODA4MDc1NzM0MjA3ODIzODgy.YCBRLA._QIyabQXUqo_7fXG0immeFpjIL4"
+token = ""
 
 bot = commands.Bot(command_prefix="$")
  
